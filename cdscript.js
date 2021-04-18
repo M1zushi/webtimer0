@@ -12,7 +12,7 @@ function stopwatch() {
         document.querySelector('p1').innerHTML = ('0' + sp3 + ':0' + sp2 + ':' + sp1);
       }
       else if (sp1 >= 60) {
-        var sp1 = 0
+        var sp1 = 0;
         if (sp2 >= 10) {
           sp2++;
           document.querySelector('p1').innerHTML = ('0' + sp3 + ':' + sp2 + ':0' + sp1);
