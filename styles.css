@@ -61,3 +61,29 @@ button1 {
   right: 375px;
   top: 385px;
 }
+
+p1 {
+  background-color: lavender;
+  border: 20px solid lavender;
+  border-radius: 35px;
+  font-family: system-ui, arial;
+  font-size: 90px;
+  position: absolute;
+  left: 150px;
+  top: 140px;
+}
+
+button2 {
+  background-color: black;
+  color: white;
+  border-top: 20px solid black;
+  border-right: 45px solid black;
+  border-left: 45px solid black;
+  border-bottom: 20px solid black;
+  border-radius: 100px;
+  font-family: system-ui, arial;
+  font-size: 25px;
+  position: absolute;
+  left: 375px;
+  top: 385px;
+}
