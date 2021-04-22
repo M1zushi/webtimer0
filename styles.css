@@ -62,7 +62,7 @@ button1 {
   top: 385px;
 }
 
-p1 {
+p2 {
   background-color: lavender;
   border: 20px solid lavender;
   border-radius: 35px;
@@ -84,6 +84,6 @@ button2 {
   font-family: system-ui, arial;
   font-size: 25px;
   position: absolute;
-  left: 375px;
+  left: 195px;
   top: 385px;
 }
