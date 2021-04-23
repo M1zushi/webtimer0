@@ -4,10 +4,7 @@ var sp3 = 0;
 var slog1 = 'Placeholder'
 var slog2 = 'Placeholder'
 var slog3 = 'Placeholder'
-// var loop = 0;
-// var useless = 5;
 
-// while (loop == 0) {
 function stopwatch() {
       sp1++;
       if (sp1 < 10) {
@@ -21,6 +18,7 @@ function stopwatch() {
             slog3 = (sp3);
           }
         }
+
         else if (sp2 >= 10) {
           slog2 = (':' + sp2);
           if (sp3 < 10) {
@@ -30,6 +28,7 @@ function stopwatch() {
             slog3 = (sp3);
           }
         }
+
         else if (sp2 >= 60) {
           sp2 = 0;
           sp3++;
@@ -41,6 +40,8 @@ function stopwatch() {
           }
         }
       }
+
+
       else if (sp1 >= 10) {
         slog1 = (':' + sp1);
         if (sp2 < 10) {
@@ -52,6 +53,7 @@ function stopwatch() {
             slog3 = (sp3);
           }
         }
+
         else if (sp2 >= 10) {
           slog2 = (':' + sp2);
           if (sp3 < 10) {
@@ -61,6 +63,7 @@ function stopwatch() {
             slog3 = (sp3);
           }
         }
+
         else if (sp2 >= 60) {
           sp2 = 0;
           sp3++;
@@ -72,6 +75,8 @@ function stopwatch() {
           }
         }
       }
+
+
       else if (sp1 > 60) {
         var sp1 = 0;
         sp2++;
@@ -84,6 +89,7 @@ function stopwatch() {
             slog3 = (sp3);
           }
         }
+
         else if (sp2 >= 10) {
           slog2 = (':' + sp2);
           if (sp3 < 10) {
@@ -93,6 +99,7 @@ function stopwatch() {
             slog3 = (sp3);
           }
         }
+        
         else if (sp2 >= 60) {
           sp2 = 0;
           sp3++;
@@ -106,7 +113,3 @@ function stopwatch() {
       }
       document.querySelector('p1').innerHTML = (slog3 + slog2 + slog1);
 }
-//   if (loop < useless) {
-//     setTimeout(stopwatch, 1000);
-//   }
-// }
